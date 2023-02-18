@@ -1,3 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: demo
 data:
   BUILD_ENV_NAME: __build_env__
   BUILD_ENV_AGE: __build_env__
